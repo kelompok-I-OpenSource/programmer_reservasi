@@ -18,72 +18,17 @@
 
 **Features:**
 
-- **Customer Side (customerSide Folder):** Stores the website and allows customers to:
-  - Make reservations
-  - Register for accounts
-  - View profile points
-- **Staff Side (adminSide Folder):** Stores the panels and allows staff to:
-  - Take orders
-  - Send orders to the kitchen
-  - Process payments
-  - Print receipts
-  - Manage CRUD operations
-  - View user preferences
-  - Download reports
-  - View charts and graph
+- **Customer Side (customerSide Folder):** Berisi tampilan website yang digunakan pelanggan untuk:
+   •	Melakukan reservasi
+   •	Mendaftar akun
+   •	Melihat poin profil / poin member
+- **Staff Side (adminSide Folder):** Berisi panel untuk staf yang digunakan untuk:
+  •	Mencatat / mengambil pesanan
+   •	Mengirim pesanan ke dapur
+   •	Memproses pembayaran
+   •	Mencetak struk / nota
+   •	Melakukan operasi CRUD (Create, Read, Update, Delete)
+   •	Melihat preferensi pengguna
+   •	Mengunduh laporan
+   •	Melihat grafik dan chart
 
-**Steps to run the project locally for Netbeans Manually:**
-
-1. Open XAMPP, start Apache and MySQL.
-2. Create a new project in Netbeans named `RestaurantProject`.
-3. Under categories, select PHP, the PHP Application under Projects.
-4. In Run Configuration, the "Run As" should be Local Web Site. (If your using Xampp).
-5. Then Finish.
-6. Delete the `setup_completed.flag` file in the RestaurantProject-main. (Extracted version)
-7. Copy all the folders and files (adminSide, customerSide, index.php, and restaurantdb1.txt) from the RestaurantProject-main into the `Source Files` directory.
-8. Make sure there is no database named `restaurantdb1`.
-9. Run the project.
-
-## Example accounts
-
-| Role     | Email                | Password    |
-| -------- | -------------------- | ----------- |
-| Customer | dadsvawvid@gmail.com | david4pass  |
-| Customer | zoe@gmail.com        | passworddef |
-| Customer | jackie@gmail.com     | passwordstu |
-| Staff    | 1                    | password123 |
-| Staff    | 10                   | davidpa2ss  |
-| Staff    | 7                    | robertpass  |
-| Admin    | 531423032            | 12345678    |
-
-## Screenshots
-
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/homehomepage.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/register.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/Login.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/homepageloggedin.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/reservation.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/stafflogin.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/postable.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/orderitembeforepay.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/addmemberidandreservationid.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/cashpaid.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/cardpayment.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/billdpanel.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/tablepanel.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/kitchenpanel.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/salespanel.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/statisticspanel.png?raw=true)
-![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/profilespanel.png?raw=true)
-
-## Contributors
-
-| Name  | Github                           |
-| ----- | -------------------------------- |
-| Bryan | https://github.com/BryanTheLai   |
-| Yong  | https://github.com/ahhyang       |
-| Kevin | https://github.com/kevin07212004 |
-| Edzer | https://github.com/edsaur        |
-
-## If you want to put a password for the database, change the config.php files.
-# programmer_reservasi
